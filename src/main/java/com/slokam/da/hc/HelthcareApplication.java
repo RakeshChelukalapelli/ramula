@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 @SpringBootApplication
 @OpenAPIDefinition
 public class HelthcareApplication {
+	//hello world
 	public static void main(String[] args) {
 		SpringApplication.run(HelthcareApplication.class, args);
 		
