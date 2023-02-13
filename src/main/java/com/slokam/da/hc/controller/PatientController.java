@@ -28,7 +28,7 @@ public class PatientController {
 	private static Logger LOGGER = LoggerFactory.getLogger(PatientController.class);
 	@Autowired
 	private IPatientService patientService;
-	
+	//hello master in your school
 	@PostMapping("saves")
 	public void savepatient(@RequestBody PatientDTO patient) throws PatientException{
 		LOGGER.debug("Entered into savePatient");
